@@ -19,11 +19,11 @@ from together import Together
 logging.basicConfig(level=logging.INFO)
 
 # Together API Key 🔐
-together = Together(api_key="TOGETHER_API_KEY")
+together = Together(api_key="Together.ai")
 
 # Tesseract & Poppler paths
-TESSERACT_PATH = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
-POPPLER_PATH = r"C:\\Users\\Kittu\\Downloads\\Release-24.08.0-0 (1)\\poppler-24.08.0\\Library\\bin"
+TESSERACT_PATH = r"tesseract.exe"
+POPPLER_PATH = r"poppler"
 pytesseract.pytesseract.tesseract_cmd = TESSERACT_PATH
 
 # Chroma DB setup
